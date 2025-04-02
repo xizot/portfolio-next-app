@@ -1,7 +1,11 @@
-import Hero from '@/components/hero';
+import { Hero } from '@/components/hero';
+import { WhoIAm } from '@/components/who-i-am';
 
 export default function Home() {
   return (
-    <Hero />
+    <>
+      <Hero />
+      <WhoIAm />
+    </>
   );
 }

@@ -1,14 +1,12 @@
-import MainLayoutHeader from "@/components/layouts/MainLayoutHeader";
+import MainLayoutHeader from '@/components/layouts/MainLayoutHeader';
 
-export default function MainLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function MainLayout({ children }: { children: React.ReactNode }) {
   return (
     <div>
       <MainLayoutHeader />
-      <main className="pt-12">{children}</main>
+      <div className="container">
+        <main>{children}</main>
+      </div>
     </div>
   );
 }
