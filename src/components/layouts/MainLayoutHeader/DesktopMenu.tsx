@@ -15,7 +15,7 @@ export default function DesktopMenu() {
           href={item.href}
           className={cn(
             "font-medium uppercase opacity-70 hover:opacity-100 hover:underline",
-            pathname === item.href && "opacity-100 underline"
+            pathname === item.href && "opacity-100"
           )}
         >
           {item.label}
