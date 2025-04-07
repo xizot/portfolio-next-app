@@ -1,0 +1,15 @@
+.table-of-contents {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  // Nested list
+  ul {
+    margin-left: 1rem;
+    list-style: none;
+    padding-left: 0;
+  }
+}

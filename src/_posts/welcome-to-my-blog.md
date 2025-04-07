@@ -2,7 +2,7 @@
 title: 'Welcome to My Blog'
 date: '2024-04-01'
 excerpt: 'This is my first blog post where I share my thoughts and experiences.'
-coverImage: '/images/blog/welcome.jpg'
+coverImage: '/images/blog/welcome.webp'
 ---
 
 # Welcome to My Blog!
