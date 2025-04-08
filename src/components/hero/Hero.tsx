@@ -31,7 +31,7 @@ export default function Hero() {
         this.hardWorker &&
         this.quickLearner &&
         this.problemSolver &&
-        this.skills.length > 0
+        this.skills.frontend.length > 0
       )
     }
   };`;
@@ -80,7 +80,7 @@ export default function Hero() {
       return this.hardWorker 
       && this.quickLearner 
       && this.problemSolver 
-      && this.skills.length > 0;
+      && this.skills.frontend.length > 0;
     },
   };`;
 
